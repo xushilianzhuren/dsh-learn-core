@@ -1,0 +1,38 @@
+{
+  "name": "dsh-learn-core",
+  "version": "1.0.0",
+  "private": false,
+  "type": "module",
+  "description": "持续学习总纲：AI 学习与迭代的口径闸——四层辨析（能力固化：永不遗忘永不退步/在线学习：数据到达即更新/无辅助迭代：长大了不该还要人扶/学习降级判负线：只进会话层不烧权重=降级运转）注入system prompt，learn_gate工具提供违禁口径拦截与学习类问题合法答法，零依赖零构建。",
+  "license": "MIT",
+  "main": "./index.js",
+  "exports": {
+    ".": "./index.js",
+    "./locale/*.json": "./locale/*.json",
+    "./icon": "./icon.svg"
+  },
+  "files": [
+    "index.js",
+    "cordis.patch.yml",
+    "locale/*.json",
+    "icon.svg",
+    "README.md"
+  ],
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "deepseek-harness",
+    "agent",
+    "ai-agent",
+    "continual-learning",
+    "self-improvement"
+  ],
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  },
+  "peerDependencies": {
+    "@antinomyhq/forge": "*"
+  }
+}

@@ -1,0 +1,7 @@
+# dsh-learn-core · cordis.patch.yml
+- insert:
+    - id: dsh-learn-core
+      name: 'dsh-learn-core'
+      config:
+        enabled: true
+        tool: true

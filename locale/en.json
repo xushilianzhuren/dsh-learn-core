@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "dsh-learn-core · Learn-core Gate",
+    "description": "Continual-learning discipline gate for AI agents: a four-layer doctrine (capability solidification: never forget, never regress; online learning: update on arrival; unassisted iteration: grown means no crutch; downgrade verdict: session-layer-only learning is degraded operation) injected into system prompt, plus a learn_gate tool with banned-claim scan and legit-answer templates. Zero dependencies, no build step."
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "dsh-learn-core · 持续学习总纲",
+    "description": "AI 学习与迭代的口径闸：四层辨析（能力固化/在线学习/无辅助迭代/学习降级判负线）注入 system prompt，learn_gate 工具提供违禁口径拦截与学习类问题合法答法，零依赖零构建。"
+  }
+}
